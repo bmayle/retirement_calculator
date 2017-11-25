@@ -22,4 +22,8 @@ class TestRetirementCalculator < Minitest::Test
 		assert_equal(35, Age(30))
 	end
 
+	def test_assert_that_70_gives_false
+		assert_equal(false, Age(70))
+	end
+
 end
