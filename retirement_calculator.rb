@@ -1,3 +1,12 @@
-def Class(input)
-	input.class
+	def Class(age)
+		age.class
+		if age.class == Integer
+			Integer
+			else
+				false
+	end
 end
+
+
+
+

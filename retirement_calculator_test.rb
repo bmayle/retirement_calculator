@@ -6,8 +6,12 @@ class TestRetirementCalculator < Minitest::Test
         assert_equal(1, 1)
     end
 
-def test_assert_age_is_an_integer
-	assert_equal(Integer, Class(30))
+	def test_assert_age_is_an_integer
+		assert_equal(Integer, Class(30))
+	end
+
+	def test_assert_wombat_is_not_an_age
+		assert_equal(false, Class("wombat"))
 	end
 
 end
