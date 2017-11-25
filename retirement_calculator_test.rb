@@ -11,7 +11,11 @@ class TestRetirementCalculator < Minitest::Test
 	end
 
 	def test_assert_wombat_is_not_an_age
-		assert_equal(false, Class("wombat"))
+		assert_equal(false, Class("wombat"))	
+	end
+
+	def test_assert_that_1_gives_64
+		assert_equal(64, Age(1))
 	end
 
 end
