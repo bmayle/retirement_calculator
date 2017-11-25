@@ -7,6 +7,10 @@
 	end
 end
 
+	def Age(age)
+		years = (65-age)
+		years
+	end
 
 
 
