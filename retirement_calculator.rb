@@ -2,15 +2,19 @@
 		age.class
 		if age.class == Integer
 			Integer
-			else
-				false
+		else
+			false
 	end
 end
 
 	def Age(age)
-		years = (65-age)
-		years
+		if age > 65
+			false
+		else
+		 years = (65-age)
+		years			
 	end
+end
 
 
 
